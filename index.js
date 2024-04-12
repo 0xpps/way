@@ -27,7 +27,7 @@ app.use('/api', createProxyMiddleware({
   }
 }));
 app.get('/', (req, res) => {
-  res.send('80604648-c399-4a79-8f00-294df292503a');
+  res.send('Hello World!');
 });
 
 // 代理服务器监听的端口
